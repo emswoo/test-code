@@ -1,0 +1,47 @@
+$bg: #EBECF0;
+$white: #FFF;
+$shadow: #BABECC;
+$px-set: 16px;
+$font: 'Montserrat', sans-serif;
+
+body {
+  background-color: $bg;
+}
+
+body, input, button {
+  font-family: $font;
+}
+
+h1 {
+  letter-spacing: 5px;
+  color: $shadow;
+  text-shadow: 1px 1px 1px $white;
+  margin-top: $px-set + 5;
+  margin-left: $px-set + 5;
+}
+
+div {
+
+}
+
+input, button {
+  outline: 0;
+  border: 0;
+  background-color: $bg;
+  text-shadow: 1px 1px 0 $white;
+  font-size: $px-set + 2;
+  padding: $px-set;
+}
+
+input {
+  box-shadow: inset 2px 2px 5px $shadow,
+              inset -5px -5px 10px $white;
+  width: 70%;
+  margin-left: $px-set * 2;
+  border-radius: 7px;
+
+  &.focus {
+    box-shadow: inset 1px 1px 2px $shadow,
+                inset -1px -1px 2px $white;
+  }
+}

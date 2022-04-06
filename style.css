@@ -1,0 +1,38 @@
+body {
+  background-color: #EBECF0;
+}
+
+body, input, button {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  letter-spacing: 5px;
+  color: #BABECC;
+  text-shadow: 1px 1px 1px #FFF;
+  margin-top: 21px;
+  margin-left: 21px;
+}
+
+input, button {
+  outline: 0;
+  border: 0;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+  font-size: 18px;
+  padding: 16px;
+}
+
+input {
+  -webkit-box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+          box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 70%;
+  margin-left: 32px;
+  border-radius: 7px;
+}
+
+input.focus {
+  -webkit-box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+          box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+/*# sourceMappingURL=style.css.map */
